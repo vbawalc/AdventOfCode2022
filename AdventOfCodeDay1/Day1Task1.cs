@@ -1,7 +1,7 @@
 ﻿int MaximumElf = 0;
 int CurrentElf = 0;
 
-foreach (string line in File.ReadLines(@"C:\\input.txt"))
+foreach (string line in File.ReadLines(@"C:\\Day1Input.txt"))
 {
     if (string.IsNullOrEmpty(line))
     {
