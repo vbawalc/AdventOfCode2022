@@ -1,7 +1,7 @@
 ﻿int[] MaximumElves = new int[3];
 int CurrentElf =0;
 
-foreach (string line in File.ReadLines(@"C:\\Users\\BartłomiejWalczak\Desktop\Elves.txt"))
+foreach (string line in File.ReadLines(@"C:\\Day1Input.txt"))
 {
     if (string.IsNullOrEmpty(line))
     {
